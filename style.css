@@ -13,14 +13,16 @@
 span {
     color: crimson;
 }
-.first-impression {
+.flexible-container {
     display: flex;
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
     margin-bottom: 100px;
 }
+.first-impression {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
 .div_1 {
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
     width: 50%;
     padding-left: 5px;
@@ -50,8 +52,47 @@ button a {
 }
 
 .dream_big {
-    display: flex;
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience_area {
+    margin: 10px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+
+}
+.experience_area h1 {
+    margin: 10px 0 10px 0;
+    padding-bottom: 10px;
+    font-size: 40px;
+    margin-left: 5px;
+}
+.ex-items {
+    margin: 30px;
+    padding: 20px;
+    
+}
+.ex_div_1 {
+    border-left: 5px solid #df4040;
+    background-color: #eee;
+    box-shadow: 8px 6px 15px gray;
+}
+.ex_div_2 {
+    border-left: 5px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+    background-color: #eee;
+    box-shadow: 8px 6px 15px gray;
+}
+.ex-heading {
+    text-size-adjust:inherit;
+}
+.status {
+    font-size: 20px;
+    color: rgb(188, 190, 16);
+}
+#footer {
+    text-align: center;
 }
